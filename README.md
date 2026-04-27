@@ -28,12 +28,14 @@ Pastikan semua dependensi telah terpasang dengan menjalankan:
 
 ```bash
 pip install -r requirements.txt
+```
 
 ### 2. Menjalankan Dashboard
 Jalankan aplikasi Streamlit dengan perintah berikut:
 
 ```bash
 streamlit run dashboard/dashboard.py
+```
 
 ---
 
