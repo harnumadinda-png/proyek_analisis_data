@@ -1,1 +1,1 @@
-http://localhost:8509/
+https://bike-sharing-dashboardweb.streamlit.app/
