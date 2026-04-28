@@ -21,9 +21,17 @@ Dashboard ini merupakan hasil analisis data peminjaman sepeda untuk periode 2011
 
 ---
 
-## 🛠️ Cara Menjalankan
+## 🛠️ Setup Environment
 
-### 1. Shell/Terminal
+### Anaconda
+
+```bash
+conda create --name main-ds python=3.9
+conda activate main-ds
+pip install -r requirements.txt
+```
+
+### Shell/Terminal
 
 ```bash
 mkdir proyek_analisis_data
@@ -33,7 +41,7 @@ pipenv shell
 pip install -r requirements.txt
 ```
 
-### 2. Menjalankan streamlit
+### Run streamlit app
 
 ```bash
 streamlit run dashboard/dashboard.py
