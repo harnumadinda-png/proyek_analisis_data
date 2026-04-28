@@ -15,23 +15,25 @@ Dashboard ini merupakan hasil analisis data peminjaman sepeda untuk periode 2011
 ---
 
 ## ❓ Pertanyaan Bisnis
-1. Bagaimana tren jumlah peminjaman sepeda dari bulan ke bulan selama periode 2011–2012, dan pada musim apa permintaan paling tinggi?  
-2. Bagaimana pengaruh kondisi cuaca dan suhu terhadap jumlah total peminjaman sepeda?  
+1. Bagaimana tren jumlah peminjaman sepeda dari bulan ke bulan selama periode tahun 2011–2012, dan pada musim apa permintaan paling tinggi?  
+2. Bagaimana pengaruh kondisi cuaca dan suhu terhadap jumlah total peminjaman sepeda selama periode tahun 2011-2012?  
 3. Pada jam berapa peminjaman sepeda paling tinggi, dan apakah terdapat perbedaan pola antara hari kerja dan hari libur?  
 
 ---
 
 ## 🛠️ Cara Menjalankan
 
-### 1. Instalasi Library
-Pastikan semua dependensi telah terpasang dengan menjalankan:
+### 1. Shell/Terminal
 
 ```bash
+mkdir proyek_analisis_data
+cd proyek_analisis_data
+pipenv install
+pipenv shell
 pip install -r requirements.txt
 ```
 
-### 2. Menjalankan Dashboard
-Jalankan aplikasi Streamlit dengan perintah berikut:
+### 2. Menjalankan streamlit
 
 ```bash
 streamlit run dashboard/dashboard.py
@@ -39,9 +41,8 @@ streamlit run dashboard/dashboard.py
 
 ---
 
-## 🌐 Akses Dashboard
-Dashboard dapat diakses secara lokal melalui:  
-http://localhost:8509/
+## 🌐 Akses Dashboard 
+https://bike-sharing-dashboardweb.streamlit.app/
 
 ---
 
@@ -54,7 +55,6 @@ http://localhost:8509/
 ---
 
 ## 📊 Output
-Dashboard interaktif ini menampilkan:
 - Tren peminjaman sepeda dari waktu ke waktu  
 - Pengaruh kondisi cuaca dan suhu terhadap jumlah peminjaman  
 - Pola peminjaman berdasarkan jam dan jenis hari (hari kerja vs hari libur)
